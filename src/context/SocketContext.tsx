@@ -27,7 +27,7 @@ export const useSocket = (): SocketContextType => {
     return context
 }
 
-const BACKEND_URL = "https://coderoom-backend-nine.vercel.app/"
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 
 const SocketProvider = ({ children }: { children: ReactNode }) => {
     const {
