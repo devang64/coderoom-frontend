@@ -38,10 +38,10 @@ function Sidebar() {
                     viewName={VIEWS.CLIENTS}
                     icon={viewIcons[VIEWS.CLIENTS]}
                 />
-                {/* <SidebarButton
+                <SidebarButton
                     viewName={VIEWS.SETTINGS}
                     icon={viewIcons[VIEWS.SETTINGS]}
-                /> */}
+                />
             </div>
             <div
                 className="absolute left-0 top-0 z-20 w-full flex-grow flex-col bg-dark md:static md:w-[300px]"
